@@ -16,13 +16,14 @@ def create(request):
 
         try:
             Employee.objects.create(name=employee_dict['name'],designation=employee_dict['designation'])
-            return render(request, 'main/success.html')
-
+            return render (request, 'main/success.html')
         except:
             print("Something went wrong!")
             return render(request, 'main/failure.html')
         finally:
             print("Test complete.")
+
+
         
 def index(request):
     return render(request, 'main/index.html')
