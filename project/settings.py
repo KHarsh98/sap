@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-cek(v(!*w7vxpvum3ja_*g*3x5#i$bzofc8)^@+co#x961i@6c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['test-api-sap.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['test-api-sap.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
